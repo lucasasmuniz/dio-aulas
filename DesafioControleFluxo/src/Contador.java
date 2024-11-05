@@ -5,7 +5,6 @@ public class Contador {
             int quantidadeIteracoes = segundoNumero - primeiroNumero;
             for(int i = 0; i < quantidadeIteracoes ;i++){
                 System.out.println("Imprimindo o número " +(i + 1));
-
             }
         
         } else {
