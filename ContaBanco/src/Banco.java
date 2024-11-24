@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ContaTerminal {
+public class Banco {
 
     public void cadastro () {
         Scanner scanner = new Scanner(System.in);
@@ -23,7 +23,7 @@ public class ContaTerminal {
         scanner.close();
     }
     public static void main(String[] args) throws Exception {
-        ContaTerminal contaTerminal = new ContaTerminal();
+        Banco contaTerminal = new Banco();
         contaTerminal.cadastro();
     }
 }
